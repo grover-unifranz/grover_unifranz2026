@@ -15,7 +15,7 @@ class Login extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            TextField(controller: usuarioCtrl, decoration: InputDecoration(labelText: "INGRESE SU USARIO")),
+            TextField(controller: usuarioCtrl, decoration: InputDecoration(labelText: "INGRESE SU USARIO GROVER CONDORI")),
             TextField(controller: claveCtrl, decoration: InputDecoration(labelText: "INGRESE SU CONTRASENA"), obscureText: true),
             SizedBox(height: 20),
             ElevatedButton(
